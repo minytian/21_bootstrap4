@@ -42,7 +42,7 @@
 						<a href="#" class="nav-link ">Home</a>
 					</li>
 					<li class="nav-item ">
-						<a href="#" class="nav-link ">Pricing</a>
+						<a href="#" class="nav-link " data-toggle="modal" data-target="#exampleModal">Pricing</a>
 					</li>
 					<li class="nav-item ">
 						<a href="#" class="nav-link ">About Us</a>
@@ -84,6 +84,54 @@
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="sr-only">next</span>
 				</a>
+			</div>
+		</div>
+
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-lableledby="exampleModal" aria-hidden="true">
+
+			<!-- Внутрь можно добавлять классы container, col-8,row  и тд-->
+
+			<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h3 class="modal-title" id="exampleModalLabel">Авторизация</h3>
+						<button class="close" type="button" data-dismiss="modal" aria-label="close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+
+					</div>
+					<div class="modal-body">
+				        <form action="">
+				        	<div class="row"><div class="col">
+				    		<div class="form-group">
+				    			<label for="exampleinputEmail">Email address</label>
+				    			<input type="email" class="form-control" id="exampleinputemail" aria-describdby="emailhelp" placeholder="email">
+				    		</div>
+				    		<small id="emailhelp" class="form-text text-muted">Enter email</small>
+				    	</div>
+				    	<div class="col">
+				    		<div class="form-group">
+				    			<label for="exampleinputpass">password</label>
+				    			<input type="password" class="form-control" id="exampleinputpass"  placeholder="password" required="">
+				    		</div>
+				    		<small id="passhelp" class="form-text text-muted">не менее 8 символов</small></div></div>
+				    		<div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+				    	</form>
+				    </div>
+				    <div class="modal-footer">
+
+				    </div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-6 p-3 m-3"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, officia.</p>
+				</div>
 			</div>
 		</div>
 
